@@ -1,0 +1,33 @@
+TAG: 2.14.0(23092056)
+ROOT: false
+ABI: arm64-v8a
+MODEL: SM-N975F
+SDK: 31
+RELEASE: 12
+---StackTrace---
+l.ۧۢۥ: [194,0] mismatched input 'p' expecting END_METHOD_DIRECTIVE
+	at l.ۥۛۧۧ.ۧ(Z1JS:1176)
+	at l.۟ۡ۬.ۧ(61K4:1796)
+	at l.۫ۨۛۧ.run(EATM:150)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8663)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:567)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1135)
+Caused by: l.ۚۖ۠ۛ: [194,0] mismatched input 'p' expecting END_METHOD_DIRECTIVE
+	at l.ۨۖ۠ۛ.ۧ(15JK:25)
+	at l.ۘۤ۟ۛ.ۧ(94P9:186)
+	at l.ۖۛ۫ۛ.ۡۦ(C6BI:1797)
+	at l.ۖۛ۫ۛ.ۥۤ(C6BI:644)
+	at l.ۗۖ۠ۛ.ۧ(O5OX:86)
+	at l.ۥۛۧۧ.ۧ(Z1JS:1165)
+	at l.ۥۛۧۧ.ۧ(Z1JS:1140)
+	at l.۟ۡ۬.ۤ(61K4:1776)
+	at l.ۢۨۛۧ.ۧ(J4WM:101)
+	at l.۟۬ۡ.run(KATS:0)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:920)
